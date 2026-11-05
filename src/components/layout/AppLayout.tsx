@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 import AuthModal from '@/components/auth/AuthModal'
 import { useAuthModalStore } from '@/store/authModalStore'
 
-const DEFAULT_TITLE = 'FDFSClub · Alerts when tickets open'
+const DEFAULT_TITLE = 'FDFSClub · Free movie ticket alerts when tickets open'
 
 const PAGE_TITLES: Record<string, string> = {
   '/dashboard': 'Your alerts',
