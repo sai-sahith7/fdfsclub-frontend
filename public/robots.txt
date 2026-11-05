@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /googleToken
+Disallow: /dashboard
+Disallow: /create
+Disallow: /telegram
+Disallow: /profile
+
+Sitemap: https://fdfsclub.in/sitemap.xml

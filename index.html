@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--
+   _____ ____  _____ ____     _       _
+  |  ___|  _ \|  ___/ ___|___| |_   _| |__
+  | |_  | | | | |_  \___ \/ __| | | | | '_ \
+  |  _| | |_| |  _|  ___) | (__| | |_| | |_) |
+  |_|   |____/|_|   |____/ \___|_|\__,_|_.__/
+
+  Tickets open. You hear first.
+
+  Reading the source? FDFSClub is open source.
+  Contribute on GitHub:
+    Frontend: https://github.com/sai-sahith7/fdfsclub-frontend
+    Backend:  https://github.com/sai-sahith7/fdfsclub-backend
+-->
+<html lang="en-IN" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <script>document.documentElement.classList.remove('no-js')</script>
+    <title>FDFSClub · Alerts when tickets open</title>
+    <meta name="description" content="Get a Telegram message or email when tickets open for the movie, date and theatres you choose. Free movie ticket alerts in India." />
+    <meta name="theme-color" content="#121212" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://fdfsclub.in/" />
+    <link rel="alternate" type="text/plain" title="FDFSClub for AI agents" href="/llms.txt" />
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="FDFSClub" />
+    <meta property="og:title" content="FDFSClub · Alerts when tickets open" />
+    <meta property="og:description" content="Free alerts when tickets open for the movie, date and theatres you choose." />
+    <meta property="og:url" content="https://fdfsclub.in/" />
+    <meta property="og:image" content="https://fdfsclub.in/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="FDFSClub: Tickets open. You hear first." />
+    <meta property="og:locale" content="en_IN" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FDFSClub · Alerts when tickets open" />
+    <meta name="twitter:description" content="Free alerts when tickets open for the movie, date and theatres you choose." />
+    <meta name="twitter:image" content="https://fdfsclub.in/og-image.png" />
+    <meta name="twitter:image:alt" content="FDFSClub: Tickets open. You hear first." />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://fdfsclub.in/#website",
+            "url": "https://fdfsclub.in/",
+            "name": "FDFSClub",
+            "description": "Free alerts when movie tickets open in India.",
+            "inLanguage": "en-IN",
+            "publisher": { "@id": "https://fdfsclub.in/#organization" }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://fdfsclub.in/#organization",
+            "name": "FDFSClub",
+            "url": "https://fdfsclub.in/",
+            "logo": "https://fdfsclub.in/pwa-512x512.png",
+            "sameAs": ["https://t.me/FDFSClubBot", "https://github.com/sai-sahith7/fdfsclub-frontend"]
+          },
+          {
+            "@type": "WebApplication",
+            "@id": "https://fdfsclub.in/#app",
+            "name": "FDFSClub",
+            "url": "https://fdfsclub.in/",
+            "applicationCategory": "EntertainmentApplication",
+            "operatingSystem": "Any",
+            "browserRequirements": "Requires JavaScript",
+            "description": "Pick a city, movie, date and theatres. FDFSClub checks every few minutes and sends a Telegram message or email when tickets open.",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+            "areaServed": { "@type": "Country", "name": "India" },
+            "publisher": { "@id": "https://fdfsclub.in/#organization" }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://fdfsclub.in/#faq",
+            "mainEntity": [
+              { "@type": "Question", "name": "How quickly will I hear about tickets?", "acceptedAnswer": { "@type": "Answer", "text": "We check your alerts every few minutes, day and night, and message you as soon as tickets open for a matching show." } },
+              { "@type": "Question", "name": "Do I need Telegram?", "acceptedAnswer": { "@type": "Answer", "text": "No. Every alert is sent by email. Telegram is optional, but it usually reaches you faster." } },
+              { "@type": "Question", "name": "Does FDFSClub book tickets for me?", "acceptedAnswer": { "@type": "Answer", "text": "No. We tell you when tickets open and link you straight to the booking page, where you pick your seats and pay as usual." } },
+              { "@type": "Question", "name": "What happens after an alert is sent?", "acceptedAnswer": { "@type": "Answer", "text": "Each alert is sent once, then moves to your past alerts. If the date passes without tickets opening, it expires on its own." } },
+              { "@type": "Question", "name": "How many alerts can I have?", "acceptedAnswer": { "@type": "Answer", "text": "Up to 3 active alerts at a time. Once one is sent, expires or is cancelled, you can add another." } },
+              { "@type": "Question", "name": "How much does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "Nothing. FDFSClub is free. Sign in with Google to start creating alerts." } }
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <style>
+      .static-page { display: none; }
+      .no-js body { background: #121212; }
+      .no-js .static-page { display: block; max-width: 720px; margin: 0 auto; padding: 32px 16px; font-family: system-ui, sans-serif; line-height: 1.6; color: #f2f2f2; }
+      .no-js .static-page a { color: #e8c97d; }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="static-page">
+        <header>
+          <a href="/">FDFSClub</a>
+        </header>
+        <main>
+          <h1>Tickets open. You hear first.</h1>
+          <p>Pick a movie, a date and your theatres. We'll message you when tickets open. Free movie ticket alerts in India.</p>
+          <noscript><p>FDFSClub needs JavaScript to run. Please enable it and reload the page.</p></noscript>
+
+          <h2>How it works</h2>
+          <ol>
+            <li><strong>Pick your movie.</strong> Choose your city and the movie you're waiting for, even before tickets open.</li>
+            <li><strong>Narrow it down.</strong> Pick a date, and any theatre or just your favourites. Filter by format, language, show time and price if you like.</li>
+            <li><strong>Get the message.</strong> We check every few minutes, day and night. When matching tickets open, you get a Telegram message and an email with a booking link.</li>
+          </ol>
+
+          <h2>Common questions</h2>
+          <dl>
+            <dt>How quickly will I hear about tickets?</dt>
+            <dd>We check your alerts every few minutes, day and night, and message you as soon as tickets open for a matching show.</dd>
+            <dt>Do I need Telegram?</dt>
+            <dd>No. Every alert is sent by email. Telegram is optional, but it usually reaches you faster.</dd>
+            <dt>Does FDFSClub book tickets for me?</dt>
+            <dd>No. We tell you when tickets open and link you straight to the booking page, where you pick your seats and pay as usual.</dd>
+            <dt>What happens after an alert is sent?</dt>
+            <dd>Each alert is sent once, then moves to your past alerts. If the date passes without tickets opening, it expires on its own.</dd>
+            <dt>How many alerts can I have?</dt>
+            <dd>Up to 3 active alerts at a time. Once one is sent, expires or is cancelled, you can add another.</dd>
+            <dt>How much does it cost?</dt>
+            <dd>Nothing. FDFSClub is free. Sign in with Google to start creating alerts.</dd>
+          </dl>
+        </main>
+        <footer>
+          <p>FDFSClub isn't affiliated with any ticketing site. We only tell you when tickets open.</p>
+          <p>FDFSClub is open source. <a href="https://github.com/sai-sahith7/fdfsclub-frontend">Contribute on GitHub</a></p>
+          <p><a href="https://t.me/FDFSClubBot">Telegram bot</a> · <a href="/llms.txt">For AI agents</a></p>
+        </footer>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

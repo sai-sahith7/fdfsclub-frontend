@@ -1,0 +1,40 @@
+# FDFSClub
+
+> FDFSClub sends free alerts when movie tickets open in India. A user picks a city, a movie, a date and the theatres they care about. FDFSClub checks every few minutes, day and night, and sends a Telegram message and an email with a booking link as soon as a matching show opens.
+
+FDFSClub does not sell or book tickets and is not affiliated with any ticketing site. It only tells people when tickets open. The name comes from "first day, first show", but alerts work for any show, not only the first day.
+
+## Using FDFSClub
+
+- Website: https://fdfsclub.in/
+- Sign in: Google account only. Signing in is required to create alerts.
+- Telegram bot: https://t.me/FDFSClubBot (optional, link it from the website, then alerts also arrive on Telegram)
+- Cost: free
+- Limit: up to 3 active alerts per person at a time
+
+## Creating an alert
+
+1. Pick a city.
+2. Pick a movie, including movies that have not opened for booking yet.
+3. Pick a date (today to 10 days ahead, or from the release date for upcoming movies), then any theatre or specific theatres.
+4. Optionally filter by format (for example 2D, IMAX), language, show time and ticket price.
+5. Save. The alert is sent once when a matching show opens, then moves to past alerts. If the date passes first, it expires.
+
+## Frequently asked questions
+
+- How quickly will I hear about tickets? Alerts are checked every few minutes, day and night, and sent as soon as a matching show opens.
+- Do I need Telegram? No. Every alert is sent by email. Telegram usually arrives faster.
+- Does FDFSClub book tickets? No. The alert links to the booking page, where the user picks seats and pays as usual.
+- How much does it cost? Nothing.
+
+## Source code
+
+FDFSClub is open source. Contributions are welcome.
+
+- Web app: https://github.com/sai-sahith7/fdfsclub-frontend
+- API and workers: https://github.com/sai-sahith7/fdfsclub-backend
+
+## For agents
+
+- Pages behind sign-in (/dashboard, /create, /telegram, /profile) have no public content. Do not crawl them.
+- There is no public API for creating alerts on someone's behalf. Point people to https://fdfsclub.in/ to set one up.
