@@ -12,7 +12,7 @@ export default defineConfig({
       manifest: {
         name: 'FDFSClub',
         short_name: 'FDFSClub',
-        description: 'Free alerts when movie tickets open in India',
+        description: 'Free movie ticket alerts and reminders. Get notified the moment tickets open.',
         lang: 'en-IN',
         categories: ['entertainment', 'utilities'],
         theme_color: '#121212',

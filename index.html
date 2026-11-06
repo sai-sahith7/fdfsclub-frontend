@@ -19,7 +19,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <script>document.documentElement.classList.remove('no-js')</script>
     <title>FDFSClub · Free movie ticket alerts when tickets open</title>
-    <meta name="description" content="Get a Telegram message or email when tickets open for the movie, date and theatres you choose. Free movie ticket alerts in India." />
+    <meta name="description" content="Free movie ticket alerts and reminders in India. Get notified on Telegram or email the moment tickets open for the movie, date and theatres you choose." />
+    <meta name="application-name" content="FDFSClub" />
+    <meta name="apple-mobile-web-app-title" content="FDFSClub" />
     <meta name="theme-color" content="#121212" />
     <meta name="color-scheme" content="dark" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
@@ -29,21 +31,23 @@
     <link rel="alternate" type="text/plain" title="FDFSClub for AI agents" href="/llms.txt" />
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="FDFSClub" />
     <meta property="og:title" content="FDFSClub · Free movie ticket alerts when tickets open" />
-    <meta property="og:description" content="Free alerts when tickets open for the movie, date and theatres you choose." />
+    <meta property="og:description" content="Free movie ticket alerts and reminders. Get notified the moment tickets open for the movie, date and theatres you choose." />
     <meta property="og:url" content="https://fdfsclub.in/" />
     <meta property="og:image" content="https://fdfsclub.in/og-image.png?v=2" />
+    <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="FDFSClub: Tickets open. You hear first." />
     <meta property="og:locale" content="en_IN" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="FDFSClub · Free movie ticket alerts when tickets open" />
-    <meta name="twitter:description" content="Free alerts when tickets open for the movie, date and theatres you choose." />
+    <meta name="twitter:description" content="Free movie ticket alerts and reminders. Get notified the moment tickets open for the movie, date and theatres you choose." />
     <meta name="twitter:image" content="https://fdfsclub.in/og-image.png?v=2" />
     <meta name="twitter:image:alt" content="FDFSClub: Tickets open. You hear first." />
 
@@ -56,7 +60,8 @@
             "@id": "https://fdfsclub.in/#website",
             "url": "https://fdfsclub.in/",
             "name": "FDFSClub",
-            "description": "Free alerts when movie tickets open in India.",
+            "alternateName": "FDFS Club",
+            "description": "Free movie ticket alerts and reminders in India. Get notified the moment tickets open.",
             "inLanguage": "en-IN",
             "publisher": { "@id": "https://fdfsclub.in/#organization" }
           },
@@ -64,19 +69,27 @@
             "@type": "Organization",
             "@id": "https://fdfsclub.in/#organization",
             "name": "FDFSClub",
+            "alternateName": "FDFS Club",
             "url": "https://fdfsclub.in/",
             "logo": "https://fdfsclub.in/pwa-512x512.png",
-            "sameAs": ["https://t.me/FDFSClubBot", "https://github.com/sai-sahith7/fdfsclub-frontend"]
+            "description": "FDFSClub sends free alerts on Telegram and email when movie tickets open in India.",
+            "sameAs": ["https://t.me/FDFSClubBot", "https://github.com/sai-sahith7/fdfsclub-frontend", "https://github.com/sai-sahith7/fdfsclub-backend"]
           },
           {
             "@type": "WebApplication",
             "@id": "https://fdfsclub.in/#app",
             "name": "FDFSClub",
+            "alternateName": "FDFS Club",
             "url": "https://fdfsclub.in/",
             "applicationCategory": "EntertainmentApplication",
             "operatingSystem": "Any",
             "browserRequirements": "Requires JavaScript",
+            "inLanguage": "en-IN",
             "description": "Pick a city, movie, date and theatres. FDFSClub checks every few minutes and sends a Telegram message or email when tickets open.",
+            "keywords": "movie ticket alerts, movie ticket reminder, movie ticket notification, tickets open alert, FDFS tickets, Telegram movie alerts, India",
+            "featureList": ["Alerts when tickets open for a chosen movie, date and theatres", "Telegram and email notifications", "Create and manage alerts from the Telegram bot", "Filters for format, language, show time and price", "Works for upcoming movies before tickets open"],
+            "isAccessibleForFree": true,
+            "image": "https://fdfsclub.in/og-image.png?v=2",
             "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
             "areaServed": { "@type": "Country", "name": "India" },
             "publisher": { "@id": "https://fdfsclub.in/#organization" }

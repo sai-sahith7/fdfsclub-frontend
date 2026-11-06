@@ -6,4 +6,26 @@ Disallow: /create
 Disallow: /telegram
 Disallow: /profile
 
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Bingbot
+User-agent: CCBot
+User-agent: meta-externalagent
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+Allow: /
+Disallow: /googleToken
+Disallow: /dashboard
+Disallow: /create
+Disallow: /telegram
+Disallow: /profile
+
 Sitemap: https://fdfsclub.in/sitemap.xml
